@@ -1,0 +1,19 @@
+{
+  "name": "amazon-automation",
+  "version": "1.0.0",
+  "description": "Automated test cases for Amazon product search and cart — LambdaTest CE Intern Assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:lambdatest": "npx playwright test --config=playwright.lambdatest.config.js",
+    "test:report": "npx playwright show-report",
+    "install:browsers": "npx playwright install chromium"
+  },
+  "keywords": ["playwright", "automation", "amazon", "lambdatest"],
+  "author": "Yuvraj Singh",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.44.0"
+  }
+}
